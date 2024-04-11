@@ -1,6 +1,6 @@
 # Test
 
-```python
+```cs
 
 using System;
 using System.Diagnostics;
