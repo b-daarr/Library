@@ -1,6 +1,6 @@
 # Test
 
-```csharp
+```cs
 
 using System;
 using System.Diagnostics;
