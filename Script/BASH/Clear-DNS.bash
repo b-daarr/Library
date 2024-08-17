@@ -1,6 +1,7 @@
 sudo -i
 # required to install networkmanager
-nmcli con show
+nmcli connection show
 
-nmcli con mod "Connection-Name" ipv4.ignore-auto-dns no
-nmcli con up "Connection-Name"
+nmcli connection modify "{Connection-Name}" ipv4.ignore-auto-dns no
+nmcli connection up "{Connection-Name}"
+nmcli connection reload
